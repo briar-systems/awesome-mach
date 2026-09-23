@@ -1,0 +1,6 @@
+{
+  "name": "mach-glfw",
+  "url": "https://github.com/briar-systems/mach-glfw",
+  "description": "GLFW 3.4 bindings.",
+  "category": "graphics"
+}

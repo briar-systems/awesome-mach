@@ -1,0 +1,6 @@
+{
+  "name": "mach-image",
+  "url": "https://github.com/briar-systems/mach-image",
+  "description": "Pure Mach image decoding and encoding.",
+  "category": "media"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "mach-gl",
+  "url": "https://github.com/briar-systems/mach-gl",
+  "description": "OpenGL 4.6 core bindings generated from the Khronos registry.",
+  "category": "graphics"
+}

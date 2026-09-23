@@ -1,0 +1,6 @@
+{
+  "name": "mach-crypto",
+  "url": "https://github.com/briar-systems/mach-crypto",
+  "description": "Lightweight cryptographic primitives.",
+  "category": "crypto"
+}

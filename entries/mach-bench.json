@@ -1,0 +1,6 @@
+{
+  "name": "mach-bench",
+  "url": "https://github.com/briar-systems/mach-bench",
+  "description": "Paired Mach and C benchmarks with identical kernels and data, checksum-verified, used to measure Mach codegen.",
+  "category": "tooling"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "mach-http",
+  "url": "https://github.com/briar-systems/mach-http",
+  "description": "Lightweight HTTP protocol engines.",
+  "category": "networking"
+}

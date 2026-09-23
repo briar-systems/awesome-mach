@@ -1,0 +1,6 @@
+{
+  "name": "mach-vk",
+  "url": "https://github.com/briar-systems/mach-vk",
+  "description": "Vulkan API declarations.",
+  "category": "graphics"
+}

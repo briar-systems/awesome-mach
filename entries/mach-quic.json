@@ -1,0 +1,6 @@
+{
+  "name": "mach-quic",
+  "url": "https://github.com/briar-systems/mach-quic",
+  "description": "Lightweight QUIC transport.",
+  "category": "networking"
+}

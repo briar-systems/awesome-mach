@@ -1,0 +1,6 @@
+{
+  "name": "Mach",
+  "url": "https://github.com/briar-systems/mach",
+  "description": "The Mach compiler and toolchain: a systems programming language with no hidden behavior.",
+  "category": "core"
+}

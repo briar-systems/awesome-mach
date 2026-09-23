@@ -1,0 +1,6 @@
+{
+  "name": "mach-font",
+  "url": "https://github.com/briar-systems/mach-font",
+  "description": "Pure Mach TrueType parsing and rasterization.",
+  "category": "media"
+}

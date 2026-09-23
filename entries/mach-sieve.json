@@ -1,0 +1,6 @@
+{
+  "name": "mach-sieve",
+  "url": "https://github.com/briar-systems/mach-sieve",
+  "description": "Sieve of Eratosthenes showing the intended layout of a Mach project and its dependencies.",
+  "category": "examples"
+}

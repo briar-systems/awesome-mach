@@ -1,0 +1,6 @@
+{
+  "name": "mach-lsp",
+  "url": "https://github.com/briar-systems/mach-lsp",
+  "description": "Language server built on the Mach compiler's own frontend.",
+  "category": "tooling"
+}

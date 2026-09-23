@@ -1,0 +1,6 @@
+{
+  "name": "mach-vscode",
+  "url": "https://github.com/briar-systems/mach-vscode",
+  "description": "Mach support for Visual Studio Code.",
+  "category": "editors"
+}

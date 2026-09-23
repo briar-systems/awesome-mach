@@ -1,0 +1,6 @@
+{
+  "name": "mach-audio",
+  "url": "https://github.com/briar-systems/mach-audio",
+  "description": "Audio with a minimal device-layer binding and pure Mach mixing and DSP.",
+  "category": "media"
+}

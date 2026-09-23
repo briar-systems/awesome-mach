@@ -1,0 +1,6 @@
+{
+  "name": "mach-acme",
+  "url": "https://github.com/briar-systems/mach-acme",
+  "description": "Lightweight ACME client.",
+  "category": "networking"
+}

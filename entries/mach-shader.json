@@ -1,0 +1,6 @@
+{
+  "name": "mach-shader",
+  "url": "https://github.com/briar-systems/mach-shader",
+  "description": "Shader-side math that lowers to GLSL.std.450 on SPIR-V targets.",
+  "category": "graphics"
+}

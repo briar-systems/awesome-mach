@@ -1,0 +1,6 @@
+{
+  "name": "mach-zed",
+  "url": "https://github.com/briar-systems/mach-zed",
+  "description": "Mach support for Zed with syntax highlighting, indentation, and code outline.",
+  "category": "editors"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "mach-template",
+  "url": "https://github.com/briar-systems/mach-template",
+  "description": "Starting point for Mach projects with library layout, tiered CI, tag-driven releases, and branch rules as data.",
+  "category": "tooling"
+}

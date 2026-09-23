@@ -1,0 +1,6 @@
+{
+  "name": "mach-tree-sitter",
+  "url": "https://github.com/briar-systems/mach-tree-sitter",
+  "description": "Tree-sitter grammar for Mach.",
+  "category": "tooling"
+}
