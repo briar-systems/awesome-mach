@@ -1,0 +1,58 @@
+name: CI
+
+on:
+  pull_request:
+  # catches listed repos that were archived, made private, or deleted since they were added
+  schedule:
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - run: pip install -r requirements.txt
+
+      - name: Check entries and their urls
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/check.py
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - run: pip install -r requirements.txt
+
+      - name: Run the tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Build into a scratch directory
+        run: python scripts/build.py out
+
+  gate:
+    if: always()
+    needs: [check, test]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: briar-systems/.github/.github/actions/gate@main
+        with:
+          needs: ${{ toJSON(needs) }}

@@ -1,0 +1,54 @@
+name: Build
+
+# rebuilds README.md and entries.json on main. the push uses a deploy key that
+# bypasses the main ruleset. only the generated files change, and they are
+# outside the paths below, so the push does not retrigger this workflow.
+on:
+  push:
+    branches: [main]
+    paths:
+      - entries/**
+      - categories.json
+      - schema/**
+      - template.md
+      - scripts/**
+      - requirements.txt
+      - .github/workflows/build.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: build
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ssh-key: ${{ secrets.BUILD_DEPLOY_KEY }}
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - run: pip install -r requirements.txt
+
+      - name: Build README.md and entries.json
+        run: python scripts/build.py
+
+      - name: Commit and push when they changed
+        run: |
+          set -eu
+          if git diff --quiet -- README.md entries.json && [ -z "$(git ls-files --others --exclude-standard -- README.md entries.json)" ]; then
+            echo "already current"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md entries.json
+          git commit -m "chore: rebuild the list"
+          git push origin HEAD:main
