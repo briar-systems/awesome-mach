@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/briar-systems/awesome-mach/schema/entry.schema.json",
+  "title": "entry",
+  "description": "one listed project. the file name, without .json, is its id.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["name", "url", "description", "category"],
+  "properties": {
+    "name": {
+      "description": "display name, usually the repository name",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 64
+    },
+    "url": {
+      "description": "where the project lives, over https",
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://[^\\s]+$"
+    },
+    "description": {
+      "description": "one sentence ending in a period",
+      "type": "string",
+      "minLength": 8,
+      "maxLength": 160,
+      "pattern": "^\\S.*[.]$"
+    },
+    "category": {
+      "description": "the id of a category in categories.json",
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$"
+    }
+  }
+}

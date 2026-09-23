@@ -1,0 +1,59 @@
+{
+  "categories": [
+    {
+      "id": "core",
+      "title": "Language",
+      "description": "The compiler, toolchain, and standard library."
+    },
+    {
+      "id": "tooling",
+      "title": "Tooling",
+      "description": "Language servers, grammars, templates, and benchmarks."
+    },
+    {
+      "id": "editors",
+      "title": "Editor support",
+      "description": "Plugins and extensions for editors."
+    },
+    {
+      "id": "web",
+      "title": "Web",
+      "description": "Servers and frameworks for building on the web."
+    },
+    {
+      "id": "networking",
+      "title": "Networking",
+      "description": "Protocols and transports."
+    },
+    {
+      "id": "crypto",
+      "title": "Cryptography",
+      "description": "Cryptographic primitives and protocols."
+    },
+    {
+      "id": "graphics",
+      "title": "Graphics",
+      "description": "GPU APIs, windowing, and shaders."
+    },
+    {
+      "id": "media",
+      "title": "Media and assets",
+      "description": "Images, fonts, models, and audio."
+    },
+    {
+      "id": "gui",
+      "title": "GUI",
+      "description": "User interface libraries."
+    },
+    {
+      "id": "games",
+      "title": "Games and simulation",
+      "description": "Engines, physics, and game tooling."
+    },
+    {
+      "id": "examples",
+      "title": "Examples",
+      "description": "Small projects that show how Mach is written."
+    }
+  ]
+}
