@@ -1,0 +1,264 @@
+{
+  "categories": [
+    {
+      "id": "core",
+      "title": "Language",
+      "description": "The compiler, toolchain, and standard library."
+    },
+    {
+      "id": "tooling",
+      "title": "Tooling",
+      "description": "Language servers, grammars, templates, and benchmarks."
+    },
+    {
+      "id": "editors",
+      "title": "Editor support",
+      "description": "Plugins and extensions for editors."
+    },
+    {
+      "id": "web",
+      "title": "Web",
+      "description": "Servers and frameworks for building on the web."
+    },
+    {
+      "id": "networking",
+      "title": "Networking",
+      "description": "Protocols and transports."
+    },
+    {
+      "id": "crypto",
+      "title": "Cryptography",
+      "description": "Cryptographic primitives and protocols."
+    },
+    {
+      "id": "graphics",
+      "title": "Graphics",
+      "description": "GPU APIs, windowing, and shaders."
+    },
+    {
+      "id": "media",
+      "title": "Media and assets",
+      "description": "Images, fonts, models, and audio."
+    },
+    {
+      "id": "gui",
+      "title": "GUI",
+      "description": "User interface libraries."
+    },
+    {
+      "id": "games",
+      "title": "Games and simulation",
+      "description": "Engines, physics, and game tooling."
+    },
+    {
+      "id": "examples",
+      "title": "Examples",
+      "description": "Small projects that show how Mach is written."
+    }
+  ],
+  "entries": [
+    {
+      "id": "mach",
+      "name": "Mach",
+      "url": "https://github.com/briar-systems/mach",
+      "description": "The Mach compiler and toolchain: a systems programming language with no hidden behavior.",
+      "category": "core"
+    },
+    {
+      "id": "mach-std",
+      "name": "mach-std",
+      "url": "https://github.com/briar-systems/mach-std",
+      "description": "The Mach standard library.",
+      "category": "core"
+    },
+    {
+      "id": "mach-bench",
+      "name": "mach-bench",
+      "url": "https://github.com/briar-systems/mach-bench",
+      "description": "Paired Mach and C benchmarks with identical kernels and data, checksum-verified, used to measure Mach codegen.",
+      "category": "tooling"
+    },
+    {
+      "id": "mach-lsp",
+      "name": "mach-lsp",
+      "url": "https://github.com/briar-systems/mach-lsp",
+      "description": "Language server built on the Mach compiler's own frontend.",
+      "category": "tooling"
+    },
+    {
+      "id": "mach-template",
+      "name": "mach-template",
+      "url": "https://github.com/briar-systems/mach-template",
+      "description": "Starting point for Mach projects with library layout, tiered CI, tag-driven releases, and branch rules as data.",
+      "category": "tooling"
+    },
+    {
+      "id": "mach-tree-sitter",
+      "name": "mach-tree-sitter",
+      "url": "https://github.com/briar-systems/mach-tree-sitter",
+      "description": "Tree-sitter grammar for Mach.",
+      "category": "tooling"
+    },
+    {
+      "id": "mach-vscode",
+      "name": "mach-vscode",
+      "url": "https://github.com/briar-systems/mach-vscode",
+      "description": "Mach support for Visual Studio Code.",
+      "category": "editors"
+    },
+    {
+      "id": "mach-zed",
+      "name": "mach-zed",
+      "url": "https://github.com/briar-systems/mach-zed",
+      "description": "Mach support for Zed with syntax highlighting, indentation, and code outline.",
+      "category": "editors"
+    },
+    {
+      "id": "hedge",
+      "name": "hedge",
+      "url": "https://github.com/briar-systems/hedge",
+      "description": "Lightweight production web server written in Mach.",
+      "category": "web"
+    },
+    {
+      "id": "laurel",
+      "name": "laurel",
+      "url": "https://github.com/briar-systems/laurel",
+      "description": "Lightweight production web application framework for Mach.",
+      "category": "web"
+    },
+    {
+      "id": "mach-acme",
+      "name": "mach-acme",
+      "url": "https://github.com/briar-systems/mach-acme",
+      "description": "Lightweight ACME client.",
+      "category": "networking"
+    },
+    {
+      "id": "mach-http",
+      "name": "mach-http",
+      "url": "https://github.com/briar-systems/mach-http",
+      "description": "Lightweight HTTP protocol engines.",
+      "category": "networking"
+    },
+    {
+      "id": "mach-mdns",
+      "name": "mach-mdns",
+      "url": "https://github.com/briar-systems/mach-mdns",
+      "description": "mDNS and DNS-SD (RFC 6762 and 6763) library.",
+      "category": "networking"
+    },
+    {
+      "id": "mach-mqtt",
+      "name": "mach-mqtt",
+      "url": "https://github.com/briar-systems/mach-mqtt",
+      "description": "MQTT 3.1.1 protocol library and broker.",
+      "category": "networking"
+    },
+    {
+      "id": "mach-quic",
+      "name": "mach-quic",
+      "url": "https://github.com/briar-systems/mach-quic",
+      "description": "Lightweight QUIC transport.",
+      "category": "networking"
+    },
+    {
+      "id": "mach-tls",
+      "name": "mach-tls",
+      "url": "https://github.com/briar-systems/mach-tls",
+      "description": "Lightweight TLS.",
+      "category": "networking"
+    },
+    {
+      "id": "mach-crypto",
+      "name": "mach-crypto",
+      "url": "https://github.com/briar-systems/mach-crypto",
+      "description": "Lightweight cryptographic primitives.",
+      "category": "crypto"
+    },
+    {
+      "id": "mach-gl",
+      "name": "mach-gl",
+      "url": "https://github.com/briar-systems/mach-gl",
+      "description": "OpenGL 4.6 core bindings generated from the Khronos registry.",
+      "category": "graphics"
+    },
+    {
+      "id": "mach-glfw",
+      "name": "mach-glfw",
+      "url": "https://github.com/briar-systems/mach-glfw",
+      "description": "GLFW 3.4 bindings.",
+      "category": "graphics"
+    },
+    {
+      "id": "mach-shader",
+      "name": "mach-shader",
+      "url": "https://github.com/briar-systems/mach-shader",
+      "description": "Shader-side math that lowers to GLSL.std.450 on SPIR-V targets.",
+      "category": "graphics"
+    },
+    {
+      "id": "mach-vk",
+      "name": "mach-vk",
+      "url": "https://github.com/briar-systems/mach-vk",
+      "description": "Vulkan API declarations.",
+      "category": "graphics"
+    },
+    {
+      "id": "mach-audio",
+      "name": "mach-audio",
+      "url": "https://github.com/briar-systems/mach-audio",
+      "description": "Audio with a minimal device-layer binding and pure Mach mixing and DSP.",
+      "category": "media"
+    },
+    {
+      "id": "mach-font",
+      "name": "mach-font",
+      "url": "https://github.com/briar-systems/mach-font",
+      "description": "Pure Mach TrueType parsing and rasterization.",
+      "category": "media"
+    },
+    {
+      "id": "mach-gltf",
+      "name": "mach-gltf",
+      "url": "https://github.com/briar-systems/mach-gltf",
+      "description": "Pure Mach glTF 2.0 loader.",
+      "category": "media"
+    },
+    {
+      "id": "mach-image",
+      "name": "mach-image",
+      "url": "https://github.com/briar-systems/mach-image",
+      "description": "Pure Mach image decoding and encoding.",
+      "category": "media"
+    },
+    {
+      "id": "blit",
+      "name": "blit",
+      "url": "https://github.com/briar-systems/blit",
+      "description": "Immediate-mode GUI library.",
+      "category": "gui"
+    },
+    {
+      "id": "boom",
+      "name": "boom",
+      "url": "https://github.com/briar-systems/boom",
+      "description": "2D-first, 3D-capable game engine.",
+      "category": "games"
+    },
+    {
+      "id": "mach-phys",
+      "name": "mach-phys",
+      "url": "https://github.com/briar-systems/mach-phys",
+      "description": "Pure Mach 2D and 3D physics.",
+      "category": "games"
+    },
+    {
+      "id": "mach-sieve",
+      "name": "mach-sieve",
+      "url": "https://github.com/briar-systems/mach-sieve",
+      "description": "Sieve of Eratosthenes showing the intended layout of a Mach project and its dependencies.",
+      "category": "examples"
+    }
+  ]
+}
