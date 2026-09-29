@@ -66,6 +66,7 @@ Mach is small and explicit. It has no garbage collector and no hidden allocation
 ## Applications
 
 - [machete](https://github.com/NickDrohan/machete) - UCI chess engine with a neural-network evaluation, multithreaded search, and hand-encoded AVX2 kernels, named for what it does to a variation tree.
+- [cellar](https://github.com/octalide/cellar) - Interactive cellular-automata editor and visualizer built on weighted outer-totalistic kernels of any radius, with heat and age colour modes and pattern saving.
 
 ## Resources
 
