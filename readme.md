@@ -27,6 +27,7 @@ Mach is small and explicit. It has no garbage collector and no hidden allocation
 - [mach-vscode](https://github.com/briar-systems/mach-vscode) - Visual Studio Code extension with syntax highlighting kept in step with the compiler.
 - [mach-zed](https://github.com/briar-systems/mach-zed) - Zed extension with highlighting, indentation, code outline, and a language server it downloads to match your compiler.
 - [mach-tree-sitter](https://github.com/briar-systems/mach-tree-sitter) - Tree-sitter grammar for highlighting, folding, and indentation in Neovim, Helix, Emacs, and other Tree-sitter editors.
+- [mach.vim](https://github.com/Angluca/mach.vim) - Vim plugin for Mach language
 
 ## Web Development
 
