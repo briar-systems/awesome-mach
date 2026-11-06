@@ -70,6 +70,7 @@ Mach is small and explicit. It has no garbage collector and no hidden allocation
 - [cellar](https://github.com/octalide/cellar) - Interactive cellular-automata editor and visualizer built on weighted outer-totalistic kernels of any radius, with heat and age colour modes and pattern saving.
 - [DOOMACH](https://github.com/NickDrohan/DOOMACH) - Port of the Doom engine and its shareware episode, with lockstep co-op and deathmatch over a relay, an OPL2 music synthesizer, and neural-network bots.
 - [Ramjet](https://github.com/Wmakes/Ramjet) - Independent RAR-compatible archiver.
+- [Machfuck](https://github.com/Wmakes/Machfuck) - Brainfuck interpreter and native compiler.
 
 ## Resources
 
